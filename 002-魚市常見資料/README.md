@@ -43,3 +43,10 @@
 | 75%    | 650.0    | 32.7     | 35.5     | 39.7     | 12.4     | 5.6      |
 | max    | 1650.0   | 59.0     | 63.4     | 68.0     | 19.0     | 8.1      |
 
+
+## 資料讀取
+```python
+import pandas as pd
+URL = r"https://raw.githubusercontent.com/Keycatowo/dataset/main/002-%E9%AD%9A%E5%B8%82%E5%B8%B8%E8%A6%8B%E8%B3%87%E6%96%99/Fish.csv"
+df = pd.read_csv(URL, encoding= 'utf-8')
+```
